@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>64-digit Hexadecimal Sequence with Pagination and Search</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="search">
+        <input type="text" id="searchInput" placeholder="Enter address (hex or decimal)">
+        <button onclick="findNumber()">Find</button>
+    </div>
+    <div id="output"></div>
+    <div id="pagination">
+        <button onclick="prevPage()">Previous</button>
+        <span id="pageInfo"></span>
+        <button onclick="nextPage()">Next</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
